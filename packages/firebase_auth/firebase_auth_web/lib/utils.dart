@@ -240,10 +240,10 @@ firebase.OAuthCredential convertPlatformCredential(AuthCredential credential) {
 String convertRecaptchaVerifierSize(RecaptchaVerifierSize size) {
   switch (size) {
     case RecaptchaVerifierSize.compact:
-      return 'compact';
+      return 'invisible';
     case RecaptchaVerifierSize.normal:
     default:
-      return 'normal';
+      return 'invisible';
   }
 }
 
